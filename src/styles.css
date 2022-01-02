@@ -1,4 +1,56 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+.login-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10% auto;
+  border-radius: 8px;
+  box-shadow:  1px 2px 8px rgba(0, 0, 0, 0.65);
+  width: 400px;
+  height: 500px;
+}
+
+.login-title {
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-diveder-line {
+  width: 100%;
+  color: red;
+  border-color: black;
+}
+
+.button-body{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.login-inputs {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 10%;
+}
+
+
+.forgot-password-text{
+  color: black;
+}
+
+.login-button{
+  width: 75%;
+  background-color: black;
+  color: white;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-message {
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
 }
