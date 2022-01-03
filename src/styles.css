@@ -1,4 +1,15 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+.product-table {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  padding: 1%;
+  border: 1px solid black;
+  margin-left: 1%
 }
