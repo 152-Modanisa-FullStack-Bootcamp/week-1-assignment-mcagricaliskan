@@ -5,8 +5,9 @@
   margin: 10% auto;
   border-radius: 8px;
   box-shadow:  1px 2px 8px rgba(0, 0, 0, 0.65);
+  min-height: 100px;
   width: 500px;
-  height: 500px;
+  max-width:inherit;
 }
 
 .user-information {
@@ -15,12 +16,17 @@
   flex-direction: row;
 }
 
+.post-settings {
+  width: 5%;
+}
+
 .profile-photo {
   width: 50px;
   height: 50px;
 }
 
 .information {
+  width: 80%;
   margin-left: 3%;
 }
 
@@ -28,10 +34,45 @@
   padding: 10px;
 }
 
-.like-information {
+.link-photo {
+  margin-bottom: 0;
+  max-width: 100%
+}
 
+.link-data{
+  margin-top: 0;
+  background-color: rgb(209, 209, 209);
+  padding: 3%;
+}
+
+.like-information {
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.like-count{
+  width: 50%;
+}
+
+.comments-count {
+  width: 50%;
+  justify-content: right;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.post-buttons:hover {
+  background-color: grey;
 }
 
 .post-buttons {
-  
+  width: 23%;
+  height: 30px;
+  border: none;
+  background-color: white;
 }
